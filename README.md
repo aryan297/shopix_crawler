@@ -21,11 +21,11 @@ This repository contains the implementation of a web crawler that discovers prod
 - A working Go development environment.
 - **Chrome** browser or **Chromium** installed.
 
-- **1git clone git@github.com:aryan297/shopix_crawler.git
+- 1. git clone git@github.com:aryan297/shopix_crawler.git
 
-cd /shopix_crawler
+- 2. cd /shopix_crawler
 
---2. go mod tidy
+- 3. go mod tidy
 
---3. go run cmd/crawler/main.go 
+- 4. go run cmd/crawler/main.go 
 
