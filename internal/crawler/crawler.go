@@ -11,7 +11,6 @@ import (
 
 // CrawlWithChromedp crawls a given URL, waits for the page to load, and extracts product links
 func CrawlWithChromedp(startURL string, productPatterns []string) ([]string, error) {
-	// Enable headful mode for debugging
 	opts := append(chromedp.DefaultExecAllocatorOptions[:],
 		chromedp.Flag("headless", false), // See what's happening
 		chromedp.Flag("disable-gpu", true),

@@ -19,7 +19,7 @@ We need a solution that:
 ### 2. **Crawling Process**
 The crawler follows the following steps for each e-commerce site:
 1. **Initial Setup**:
-   - Create a new **Chromedp** context with a 40-second timeout.
+   - Create a new **Chromedp** context with a 60-second timeout.
    
 2. **Navigating to the Site**:
    - The crawler visits the base URL of the website using **chromedp.Navigate**.
