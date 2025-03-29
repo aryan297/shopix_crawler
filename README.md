@@ -15,6 +15,8 @@ This repository contains the implementation of a web crawler that discovers prod
 - **Concurrency**: The crawler can be extended to use concurrent or parallel crawling for scalability.
 - **Headful Mode for Debugging**: By default, the crawler runs in headless mode, but it can be switched to headful mode for debugging purposes to visualize the browser actions.
 
+## package- https://pkg.go.dev/github.com/chromedp/chromedp
+
 ## 4. Setup Instructions
 ### Prerequisites:
 - **Go 1.18** or higher.
@@ -25,7 +27,7 @@ This repository contains the implementation of a web crawler that discovers prod
 
 - 2. cd /shopix_crawler
 
-- 3. go mod tidy
+- 3. go mod tidy 
 
 - 4. go run cmd/crawler/main.go 
 
